@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Task1-dynamic_array/Task1-dynamic_array.cbp" />
+		<Project filename="Task2-struct/Task2-struct.cbp" />
+		<Project filename="Task3-function_accept_struct/Task3-function_accept_struct.cbp" />
+		<Project filename="Task4-class/Task4-class.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

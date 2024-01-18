@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1700136405 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\src\circle.cpp
+	"Circle.h"
+	<string.h>
+
+1700167124 d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\include\circle.h
+	<Shape.h>
+
+1700167105 d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\include\shape.h
+
+1700136423 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\src\shape.cpp
+	"Shape.h"
+	<string.h>
+
+1700136431 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\src\triangle.cpp
+	"Triangle.h"
+	<string.h>
+
+1700167152 d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\include\triangle.h
+	<Shape.h>
+
+1700167295 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\main.cpp
+	<iostream>
+	"Shape.h"
+	"Rectangl.h"
+	"Circle.h"
+	"Triangle.h"
+	"Square.h"
+
+1700167138 d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\include\rectangl.h
+	<Shape.h>
+
+1700136412 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\src\rectangl.cpp
+	"Rectangl.h"
+	<string.h>
+
+1700136427 source:d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\src\square.cpp
+	"Square.h"
+	<string.h>
+
+1700167145 d:\open source application development\5. cpp\day 8\lab\task1-calculate_area_of_shapes\include\square.h
+	<Shape.h>
+

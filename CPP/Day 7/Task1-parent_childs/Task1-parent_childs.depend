@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1700044220 source:d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\src\parent.cpp
+	<iostream>
+	"Parent.h"
+
+1700043925 d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\include\parent.h
+
+1700043956 source:d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\src\secondchild.cpp
+	<iostream>
+	"SecondChild.h"
+
+1700043677 d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\include\secondchild.h
+	<Parent.h>
+
+1700044364 source:d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\main.cpp
+	<iostream>
+	"FirstChild.h"
+	"SecondChild.h"
+	"Parent.h"
+
+1700044152 d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\include\firstchild.h
+	<Parent.h>
+
+1700044177 source:d:\open source application development\5. cpp\day 7\lab\task1-parent_childs\src\firstchild.cpp
+	<iostream>
+	"FirstChild.h"
+

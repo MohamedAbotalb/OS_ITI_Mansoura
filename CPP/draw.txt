@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+
+void main()
+{
+    int gd=DETECT, gm;
+    int x=100, y=100, r=80
+    initgraph(&gd, &gm, "c:\\turboc3\\bgi");
+    cleardevice();
+    circle(x, y, r);
+    getch();
+    closegraph();
+}
+
+setbkcolor is use to set the background color by specifying the color name or the number
+setbkcolor(GREEN);
+rectangle(100,100,200,200);
+
+setcolor is use to set the text color or set the outline color of the various shapes.
+setcolor(GREEN); or setcolor(3);
+rectangle(100,100,200,200);
+outtextxy(110,110,"Text in Green")

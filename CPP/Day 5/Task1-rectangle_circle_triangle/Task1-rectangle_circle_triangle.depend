@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1699877154 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Point.cpp
+	<iostream>
+	"Point.h"
+
+1699881556 
+
+1699879788 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Point.h
+
+1699880412 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/main.cpp
+	<iostream>
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1699881363 h"
+
+1699881336 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1699881336 .h"
+
+1699879774 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Rectangle.h
+	"Point.h"
+
+1699881556 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Circle.cpp
+	<iostream>
+	<cmath>
+	"Circle.h"
+
+1699881569 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Circle.h
+	"Point.h"
+
+1699881363 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Triangle.cpp
+	<iostream>
+	"Triangle.h"
+
+1699880503 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Triangle.h
+	"Point.h"
+
+1699880412 source:d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\main.cpp
+	<iostream>
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1699879788 d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\include\point.h
+
+1699879774 d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\include\rectangle.h
+	"Point.h"
+
+1699881569 d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\include\circle.h
+	"Point.h"
+
+1699880503 d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\include\triangle.h
+	"Point.h"
+
+1699881556 source:d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\src\circle.cpp
+	<iostream>
+	<cmath>
+	"Circle.h"
+
+1699877154 source:d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1699881336 source:d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\src\rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1699881363 source:d:\open source application development\5. cpp\day 5\lab\task1-rectangle_circle_triangle\src\triangle.cpp
+	<iostream>
+	"Triangle.h"
+
+1699991717 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/main.cpp
+	<iostream>
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1699879788 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Point.h
+
+1699879774 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Rectangle.h
+	"Point.h"
+
+1699991362 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Circle.h
+	"Point.h"
+
+1699880503 /mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/include/Triangle.h
+	"Point.h"
+
+1699881556 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Circle.cpp
+	<iostream>
+	<cmath>
+	"Circle.h"
+
+1699877154 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Point.cpp
+	<iostream>
+	"Point.h"
+
+1699881336 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1699881363 source:/mnt/Data/Open Source Application Development/5. CPP/Day 5/Lab/Task1-rectangle_circle_triangle/src/Triangle.cpp
+	<iostream>
+	"Triangle.h"
+

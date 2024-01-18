@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699270022 source:/mnt/Data/Open Source Application Development/5. CPP/Day 1/Lab/Task3-function_accept_struct/main.cpp
+	<iostream>
+	<string.h>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Task1-complex_with_operator_overload/Task1-complex_with_operator_overload.cbp" />
+		<Project filename="Task2-dynamic_stack_with_operator_overload/Task2-dynamic_stack_with_operator_overload.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

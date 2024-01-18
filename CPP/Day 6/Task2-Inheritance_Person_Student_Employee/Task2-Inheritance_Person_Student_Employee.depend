@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1699981493 source:d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\main.cpp
+	<iostream>
+	"Person.h"
+	"Student.h"
+	"Employee.h"
+
+1699960906 
+
+1699980499 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/main.cpp
+	<iostream>
+	"Person.h"
+	"Student.h"
+
+1699981266 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/src/Employee.cpp
+	<iostream>
+	"Employee.h"
+
+1699981167 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/include/Employee.h
+	<Person.h>
+
+1699978989 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/include/Person.h
+
+1699981363 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/src/Student.cpp
+	<iostream>
+	"Student.h"
+
+1699980632 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/include/Student.h
+	<Person.h>
+
+1699979034 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task2-Inheritance_Person_Student_Employee/src/Person.cpp
+	<iostream>
+	"Person.h"
+	<string.h>
+
+1699978989 d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\include\person.h
+
+1699980632 d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\include\student.h
+	<Person.h>
+
+1699981167 d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\include\employee.h
+	<Person.h>
+
+1699981266 source:d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\src\employee.cpp
+	<iostream>
+	"Employee.h"
+
+1699979034 source:d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\src\person.cpp
+	<iostream>
+	"Person.h"
+	<string.h>
+
+1699981363 source:d:\open source application development\5. cpp\day 6\lab\task2-inheritance_person_student_employee\src\student.cpp
+	<iostream>
+	"Student.h"
+

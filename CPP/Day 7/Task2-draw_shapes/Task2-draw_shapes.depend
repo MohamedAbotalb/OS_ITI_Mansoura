@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1700166605 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\main.cpp
+	<iostream>
+	<graphics.h>
+	"Shape.h"
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1700046124 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1700047896 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\point.h
+
+1700166591 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\rectangle.cpp
+	<iostream>
+	"graphics.h"
+	"Rectangle.h"
+	"Shape.h"
+
+1699964199 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1700166517 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\rectangle.h
+	"Point.h"
+	"Shape.h"
+
+1700135591 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\shape.h
+	"Point.h"
+
+1700048001 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\triangle.cpp
+	<iostream>
+	<graphics.h>
+	"Triangle.h"
+	"Shape.h"
+
+1699964199 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1700047322 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\triangle.h
+	"Point.h"
+	"Shape.h"
+
+1700135297 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\shape.cpp
+	"Shape.h"
+
+1700135484 d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\include\circle.h
+	"Point.h"
+	"Shape.h"
+
+1700135509 source:d:\open source application development\5. cpp\day 7\lab\task2-draw_shapes\src\circle.cpp
+	<iostream>
+	<graphics.h>
+	"Circle.h"
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699285644 source:/mnt/Data/Open Source Application Development/5. CPP/Day 1/Lab/Task4-class/main.cpp
+	<iostream>
+	<string.h>
+

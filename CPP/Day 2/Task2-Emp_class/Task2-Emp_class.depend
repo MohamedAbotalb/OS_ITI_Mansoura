@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699356399 source:/mnt/Data/Open Source Application Development/5. CPP/Day 2/Lab/Task2-Emp_class/main.cpp
+	<iostream>
+	<string.h>
+

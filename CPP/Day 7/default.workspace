@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Task1-parent_childs/Task1-parent_childs.cbp" />
+		<Project filename="Task2-draw_shapes/Task2-draw_shapes.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Task1-swap_by_reference/Task1-swap_by_reference.cbp" />
+		<Project filename="Task2-Emp_class/Task2-Emp_class.cbp" />
+		<Project filename="Task3-complex_number/Task3-complex_number.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

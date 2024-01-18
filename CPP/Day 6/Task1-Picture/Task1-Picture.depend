@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1700048256 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\main.cpp
+	<iostream>
+	<conio.h>
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+	"Picture.h"
+	<graphics.h>
+
+1699992534 
+
+1699992112 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/main.cpp
+	<iostream>
+	"Point.h"
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1699992603 h"
+
+1699992509 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/include/Point.h
+
+1699992517 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/include/Rectangle.h
+	"Point.h"
+	"Point.h"
+
+1699992064 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/include/Circle.h
+	"Point.h"
+
+1699992534 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/include/Triangle.h
+	"Point.h"
+	"Point.h"
+
+1699992096 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/src/Circle.cpp
+	<iostream>
+	<cmath>
+	"Circle.h"
+
+1699992457 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/src/Point.cpp
+	<iostream>
+	"Point.h"
+	<iostream>
+	"Point.h"
+
+1699992468 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/src/Rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+	<iostream>
+	"Rectangle.h"
+
+1699992468 .h"
+
+1699992603 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/src/Triangle.cpp
+	<iostream>
+	"Triangle.h"
+	<iostream>
+	"Triangle.h"
+
+1699992649 source:/mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/src/Picture.cpp
+	"Picture.h"
+	"Picture.h"
+
+1699992649 "
+
+1699992649 /mnt/Data/Open Source Application Development/5. CPP/Day 6/Lab/Task1-Picture/include/Picture.h
+
+1700048544 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\src\picture.cpp
+	<iostream>
+	"Picture.h"
+
+1700048524 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\picture.h
+	"Rectangle.h"
+	"Circle.h"
+	"Triangle.h"
+
+1699992457 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1699992509 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\point.h
+
+1700048483 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\src\rectangle.cpp
+	<iostream>
+	"graphics.h"
+	"Rectangle.h"
+
+1700048450 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\rectangle.h
+	"Point.h"
+
+1699993840 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\src\triangle.cpp
+	<iostream>
+	<graphics.h>
+	"Triangle.h"
+
+1699998554 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\triangle.h
+	"Point.h"
+
+1699993829 source:d:\open source application development\5. cpp\day 6\lab\task1-picture\src\circle.cpp
+	<iostream>
+	<graphics.h>
+	"Circle.h"
+
+1699964199 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1699993056 d:\open source application development\5. cpp\day 6\lab\task1-picture\include\circle.h
+	"Point.h"
+
+1699964199 d:\open source application development\5. cpp\day 6\lab\task1-picture\src\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1699964199 d:\open source application development\5. cpp\day 6\lab\task1-picture\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
