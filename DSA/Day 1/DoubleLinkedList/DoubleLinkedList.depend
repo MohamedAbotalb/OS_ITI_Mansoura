@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1703943296 source:/mnt/Data/Open Source Application Development/10. DSA/Labs/Day 1/DoubleLinkedList/main.cpp
+	<iostream>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1704024819 source:/mnt/Data/Open Source Application Development/10. DSA/Labs/Day 2/LinkedListQueue/main.cpp
+	<iostream>
+	<string.h>
+
