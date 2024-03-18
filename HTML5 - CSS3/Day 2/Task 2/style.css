@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  width: 160px;
+  height: 80px;
+  background-color: blue;
+  position: absolute;
+  left: calc(100% - 1500px);
+  top: calc(100% - 500px);
+  transition: all 1s;
+}
+
+@keyframes moveRect {
+  0% {
+    left: calc(100% - 1500px);
+    top: calc(100% - 500px);
+  }
+  25% {
+    left: calc(100% - 700px);
+    top: calc(100% - 500px);
+    background-color: red;
+  }
+  50% {
+    left: calc(100% - 700px);
+    top: calc(100% - 800px);
+    background-color: orange;
+  }
+  75% {
+    left: calc(100% - 1500px);
+    top: calc(100% - 800px);
+    background-color: green;
+  }
+  100% {
+    left: calc(100% - 1500px);
+    top: calc(100% - 500px);
+    background-color: yellow;
+  }
+}
+
+.controls {
+  margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  width: 10rem;
+  margin-right: 10px;
+  padding: 15px 30px;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+#startBtn:hover {
+  background-color: green;
+  color: white;
+}
+
+#pauseBtn:hover {
+  background-color: orange;
+  color: white;
+}
+
+#stopBtn:hover {
+  background-color: red;
+  color: white;
+}

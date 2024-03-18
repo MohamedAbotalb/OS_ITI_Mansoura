@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  height: 90vh;
+  margin: 20px auto;
+  padding: 15px;
+  border: 5px solid yellow;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px rgb(5, 160, 181), 5px 5px 50px rgb(5, 160, 181) inset;
+  display: flex;
+  justify-content: space-between;
+  transition: all 2s;
+}
+
+.container:hover {
+  transform: skew(15deg);
+}
+
+.container:active {
+  transform: scale(0.6);
+}
+
+section {
+  border-radius: 20px;
+  overflow: auto;
+  height: 100%;
+}
+
+section.left {
+  width: 33%;
+  padding: 10px 20px;
+  column-count: 3;
+  column-rule: 3px inset red;
+  flex-shrink: 0;
+  text-align: center;
+  border: 5px solid black;
+  box-shadow: 5px 5px 75px greenyellow inset, -5px -5px 75px greenyellow inset;
+  transition: all 2s;
+}
+
+section.left:hover {
+  text-decoration: underline;
+}
+
+section.left mark {
+  background-color: red;
+  transition: box-shadow 2s;
+}
+
+section.left mark:hover {
+  box-shadow: 5px 5px 25px orange, 5px 5px 25px orange inset;
+}
+
+section.left mark:active {
+  box-shadow: 5px 5px 25px rgb(0, 255, 136), 5px 5px 25px rgb(0, 255, 136) inset;
+}
+
+@media only screen and (max-width: 900px) {
+  section.left {
+    column-rule: none;
+  }
+
+  section.left mark {
+    background-color: transparent;
+  }
+}
+
+section.right {
+  width: 65%;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 5px solid blue;
+  box-shadow: 5px 5px 75px rgb(5, 160, 181) inset,
+    -5px -5px 75px rgb(5, 160, 181) inset;
+}
+
+section.right div {
+  width: 180px;
+  height: 180px;
+  border: 4px solid blue;
+  box-shadow: 5px 5px 10px rgb(186, 6, 199);
+  margin: 15px;
+  transition: all 1s;
+}
+
+section.right div:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 10px rgb(233, 180, 7);
+}
+
+section.right div:active {
+  transform: scale(3);
+  border: none;
+  box-shadow: 5px 5px 10px rgb(250, 25, 4);
+}
+
+section.right div img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 882px) {
+  .container:hover {
+    transform: skew(0);
+  }
+
+  .container:active {
+    transform: scale(1);
+  }
+
+  section.right div {
+    transform: rotate(20deg);
+  }
+
+  section.right div:active {
+    border: 4px dashed blue;
+    transform: scale(1.2);
+  }
+}

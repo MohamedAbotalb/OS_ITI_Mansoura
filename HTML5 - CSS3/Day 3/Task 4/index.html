@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 - Day 3 - Task 4 - Geolocation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div id="geo-items">
+        <button id="display">display map</button>
+        <button id="details">detailed information</button>
+      </div>
+      <div id="map-info">
+        <div id="map"></div>
+        <div id="info"></div>
+      </div>
+    </section>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB90FxtYG_ybAYXGkz0ybkmkboE2nEbezI"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
