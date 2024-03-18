@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1697459654 source:d:\day 6\task4-highlighted_menu_pointer\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+
+1697642907 >
+
+1697581511 source:d:\courses\programming\iti\open source applications development\c lang\day 7\lab\task4-highlighted_menu_pointer\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+
+1697642907 source:d:\courses\programming\iti\open source applications development\c lang\day 7\lab\task4-highlighted_menu_dynamic\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+
+1697708313 source:/mnt/Data/Open Source Application Development/1. C Language/Day 7/Lab/Task3-highlighted_menu_dynamic/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+

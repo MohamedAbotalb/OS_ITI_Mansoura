@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Lab/Task1-swap/Task1-swap.cbp" />
+		<Project filename="Lab/Task2-calc/Task2-calc.cbp" />
+		<Project filename="Lab/Task2-calc3/Task2-calc3.cbp" />
+		<Project filename="Lab/Task2-calc2/Task2-calc2.cbp" />
+		<Project filename="Lab/Task3-highlighted_menu_static/Task3-highlighted_menu_static/Task3-highlighted_menu_static.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

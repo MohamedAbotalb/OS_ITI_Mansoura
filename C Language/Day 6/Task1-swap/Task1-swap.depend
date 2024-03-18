@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1697316844 source:/mnt/Data/Open Source Application Development/C Lang/Day 6/Lab/Task1-swap/main.c
+	<stdio.h>
+	<stdlib.h>
+

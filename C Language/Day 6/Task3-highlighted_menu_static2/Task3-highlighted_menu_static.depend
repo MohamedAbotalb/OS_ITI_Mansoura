@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1697410886 source:d:\courses\programming\iti\open source applications development\c lang\day 6\task3-highlighted_menu_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Windows.h>
+
+1697583032 source:d:\courses\programming\iti\open source applications development\c lang\day 6\lab\task3-highlighted_menu_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+
+1697583032 source:d:\courses\programming\iti\open source applications development\c lang\day 6\lab\task3-highlighted_menu_static\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+
