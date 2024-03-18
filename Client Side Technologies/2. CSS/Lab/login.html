@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url('./Images/background.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+      }
+
+      div {
+        background-color: lightgray;
+        text-align: center;
+        width: 320px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10%;
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+        margin: 40px 0;
+      }
+
+      input {
+        display: block;
+        width: 250px;
+        background-color: transparent;
+        margin: 0 auto;
+        border: none;
+        outline: 0;
+      }
+
+      input::placeholder {
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+
+      input:not([type='submit']) {
+        padding: 8px;
+        height: 30px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+      }
+
+      input:not([type='submit']):focus {
+        border-bottom: 2px solid lightseagreen;
+      }
+
+      input[type='submit'] {
+        width: auto;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 30px auto;
+        padding: 10px 20px;
+        background-color: #b76da9;
+        border-radius: 15%;
+        cursor: pointer;
+        text-transform: capitalize;
+      }
+
+      div a {
+        display: block;
+        font-size: 20px;
+        margin-top: 40px;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <form method="post" action="">
+        <img src="./Images/person.png" alt="person" />
+
+        <input type="text" placeholder="enter your name" />
+
+        <img src="./Images/lock.png" alt="lock" />
+
+        <input type="password" placeholder="enter your password" />
+
+        <input type="submit" value="log in" />
+      </form>
+
+      <a href="signup.html">sign up</a>
+    </div>
+  </body>
+</html>

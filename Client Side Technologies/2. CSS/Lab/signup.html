@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url('./Images/background.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+      }
+
+      div {
+        background-color: lightgray;
+        text-align: center;
+        width: 350px;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10%;
+      }
+
+      img {
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: 20px auto;
+      }
+
+      input {
+        width: 280px;
+        background-color: transparent;
+        margin: 0 auto;
+        border: none;
+        outline: 0;
+      }
+
+      input::placeholder {
+        font-size: 16px;
+      }
+
+      input:not([type='submit']) {
+        padding: 8px;
+        height: 30px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+      }
+
+      input:not([type='submit']):focus {
+        border-bottom: 2px solid lightseagreen;
+      }
+
+      input[type='submit'] {
+        width: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 30px 0;
+        padding: 10px 15px;
+        background-color: #b76da9;
+        border-radius: 15%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <form>
+        <img src="./Images/person.png" alt="person" />
+
+        <input type="text" placeholder="Enter your Name" />
+
+        <img src="./Images/mail.png" alt="mail" />
+
+        <input type="email" placeholder="Enter your mail" />
+
+        <img src="./Images/lock.png" alt="lock" />
+
+        <input type="password" placeholder="Enter your Password" />
+
+        <img src="./Images/lock.png" alt="lock" />
+
+        <input type="password" placeholder="Rewrite Password" />
+
+        <input type="submit" value="Sign Up" />
+      </form>
+    </div>
+  </body>
+</html>

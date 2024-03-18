@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 5 - Task 3</title>
+
+    <style>
+      .container {
+        width: 600px;
+        margin: 100px auto;
+        padding: 10px;
+        background-color: lightgray;
+      }
+      div {
+        margin: 20px auto;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .os {
+        background-color: lightseagreen;
+      }
+
+      .pd {
+        background-color: lightgreen;
+      }
+
+      .ai {
+        background-color: yellow;
+      }
+
+      input[type='text'] {
+        padding: 8px;
+        outline: 0;
+        font-size: 18px;
+      }
+
+      span {
+        color: red;
+        visibility: hidden;
+      }
+
+      button {
+        padding: 10px;
+        font-size: 18px;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dept-group">
+        <label>Department:</label>
+        <input type="radio" name="department" value="os" />OS
+        <input type="radio" name="department" value="pd" />PD
+        <input type="radio" name="department" value="ai" />AI
+      </div>
+      <div class="studentname">
+        <label>StudentName</label>
+        <input type="text" required /><span>enter a valid name</span>
+      </div>
+
+      <div class="grade">
+        <label>StudentGrade</label>
+        <input type="text" required /><span>enter a valid grade</span>
+      </div>
+
+      <button>Add</button>
+    </div>
+
+    <table></table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

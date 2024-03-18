@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Day 1</title>
+
+    <script>
+      console.log(number1); // this will cause an exception because the number1 is not defined in this script and not hoisted from another script
+      //   console.log(number2); // this will cause an exception because the number1 is not defined in this script and not hoisted from another script
+      //   console.log(number3); // this will cause an exception because the number1 is not defined in this script and not hoisted from another script
+    </script>
+
+    <script src="External.js"></script>
+
+    <script>
+      console.log(number1); // this will work and give undefined value
+      //   console.log(number2); // this will cause an exception(number2 is not defined) not hoisted from another script
+      //   console.log(number3); this will cause an exception(number3 is not defined) not hoisted from another script
+    </script>
+  </head>
+  <body>
+    <p>JavaScript Day 1 JavaScript Day 1 JavaScript Day 1 JavaScript Day 1</p>
+  </body>
+</html>
