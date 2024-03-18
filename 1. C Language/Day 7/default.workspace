@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<CodeBlocks_workspace_file>
-	<Workspace title="Workspace">
-		<Project filename="Lab/Task1-dynamic_array/Task1-dynamic_array.cbp" />
-		<Project filename="Lab/Task2-dynamic_Two_dimensional_array/Task2-dynamic_Two_dimensional_array.cbp" />
-		<Project filename="Lab/Task4-pointer_to_struct/Task4-pointer_to_struct.cbp" />
-	</Workspace>
-</CodeBlocks_workspace_file>

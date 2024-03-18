@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1696876211 source:/mnt/Data/Open Source Application Development/C Lang/Day 2/Tasks/Task1/main.c
-	<stdio.h>
-	<stdlib.h>
-	<curses.h>
-

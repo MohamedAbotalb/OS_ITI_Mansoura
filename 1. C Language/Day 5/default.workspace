@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<CodeBlocks_workspace_file>
-	<Workspace title="Workspace">
-		<Project filename="Task1-display_employee/Task1.cbp" />
-		<Project filename="Task2-display_employees/Task2.cbp" />
-		<Project filename="Task3-factorial/Task3-factorial.cbp" />
-		<Project filename="Task4-power/Task4-power.cbp" />
-	</Workspace>
-</CodeBlocks_workspace_file>
