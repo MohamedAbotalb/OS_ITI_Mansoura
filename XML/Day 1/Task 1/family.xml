@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "family.dtd">
+<family>
+	<grandfather>
+		<father job="Engineer">
+			<mother>Mona</mother>
+			<daughter age="12" job="Doctor">Nada</daughter>
+			<son age="15" sport="football">Ahmed</son>
+		</father>
+		<uncle>Ali</uncle>
+		<aunt sons="3">Huda</aunt>
+	</grandfather>
+</family>

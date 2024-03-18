@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="task4.xslt"?>
+<xslTutorial>
+	<word id="czech"/>
+	<word id="Czech"/>
+	<word id="cook"/>
+	<word id="TooK"/>
+	<word id="took"/>
+	<word id="Took"/>
+</xslTutorial>

@@ -1,0 +1,65 @@
+UNIVERSITY,UNIVERSITY_NAME,DATE,PRESIDENT,OFFICERS,PROVOSTS,TITLE,ONEOFFICER,ONEPROVOST,SCHOOLS 
+{  
+	display: block;
+}
+
+UNIVERSITY_NAME {  
+	font-size: 72px;  
+	text-align: center;
+}
+
+DATE {  
+	width: 100%;  
+	color: red;  
+	text-align: center;  
+	font-size: 20px;  
+	border: 3px solid red;
+}
+
+PRESIDENT { 
+	margin: 16px 0;
+}
+
+OFFICERS TITLE,PROVOSTS TITLE {  
+	margin-top: 16px;  
+	color: red;
+
+}
+
+OFFICERS ONEOFFICER,OFFICERS OFFICER_POSITION,ONEPROVOST PROVOST_NAME,ONEPROVOST PROVOST_POSITION {  
+	color: blue;  
+	font-style: italic;
+
+}SCHOOLS TITLE {  
+	font-size: 24px;  
+	color: red;  
+	text-align: center;  
+	margin: 16px 0;
+}
+
+SCHOOLS ONESCHOOL SCHOOL_NAME {  
+	display: block;
+}
+
+SCHOOL THE_SCHOOL {  
+	display: block;  
+	text-align: center;  
+	font-size: 20px; 
+	color: red;  
+	margin-top: 24px;  
+	margin-bottom: 10px;
+}
+
+SCHOOL DEPARTMENT {  
+	display: block;  
+	border-top: 2px solid gray;  
+	border-left: 2px solid gray; 
+	border-bottom: 2px solid lightblue; 
+	border-right: 2px solid lightblue;  
+	margin-left: 16px;  
+	margin-bottom: 16px;
+}
+
+SCHOOL DEPARTMENT * { 
+	display: block;
+}

@@ -1,0 +1,25 @@
+CATALOG, CD {    
+	display: block;
+}
+
+CD {    
+	margin-bottom: 25px;
+}
+
+COUNTRY,COMPANY,PRICE,YEAR {    
+	display: block;    
+	margin-left: 22px;
+}
+
+TITLE,ARTIST	{    
+	display: inline-block;    	
+	font-size: 25px;
+}
+
+TITLE {    
+	color: red;
+} 	
+
+ARTIST {   
+	color: blue;
+}
