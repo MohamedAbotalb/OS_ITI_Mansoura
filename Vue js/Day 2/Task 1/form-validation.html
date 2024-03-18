@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Form Validation</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style></style>
+    <script src="vue.js"></script>
+  </head>
+  <body>
+    <section id="app" class="container">
+      <div>
+        <form
+          class="row my-5 needs-validation"
+          novalidate
+          @submit.prevent="addBook"
+        >
+          <!-- Book name input -->
+          <div class="form-group my-4 col-md-6">
+            <label for="bookname">Book name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="bookname"
+              required
+              v-model="bookData.bookName"
+              pattern="[a-zA-Z0-9.\s]+"
+            />
+            <div class="invalid-feedback">Please enter a valid book name.</div>
+          </div>
+
+          <!-- Author name input -->
+          <div class="form-group my-4 col-md-6">
+            <label for="authorname">Author name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="authorname"
+              required
+              v-model="bookData.authorName"
+              pattern="[a-zA-Z\s]+"
+            />
+            <div class="invalid-feedback">
+              Please enter a valid author name.
+            </div>
+          </div>
+
+          <!-- Category Select -->
+          <div class="form-group my-4 col-md-6">
+            <label class="form-label">Category</label>
+            <select
+              name="category"
+              class="form-select"
+              required
+              v-model="bookData.category"
+            >
+              <option disabled value="">Select Category</option>
+              <option v-for="cat in book.category" :value="cat">
+                {{ cat }}
+              </option>
+            </select>
+            <div class="invalid-feedback">Please choose the book category.</div>
+          </div>
+
+          <!-- Pages number input -->
+          <div class="form-group my-4 col-md-6">
+            <label for="pages" class="form-label">Number of Pages</label>
+            <input
+              type="number"
+              class="form-control"
+              id="pages"
+              v-model="bookData.pages"
+              required
+              min="1"
+            />
+            <div class="invalid-feedback">
+              Please enter a valid number of book pages.
+            </div>
+          </div>
+
+          <!-- ISBN input -->
+          <div class="form-group my-4 col-md-6">
+            <label for="isbn" class="form-label">ISBN</label>
+            <input
+              type="text"
+              class="form-control"
+              id="isbn"
+              v-model="bookData.ISBN"
+              required
+              pattern="[0-9]{13}"
+            />
+            <div class="invalid-feedback">Please enter a valid book ISBN.</div>
+          </div>
+
+          <!-- Price number input -->
+          <div class="form-group my-4 col-md-6">
+            <label for="price" class="form-label">Price</label>
+            <input
+              type="number"
+              class="form-control"
+              id="price"
+              v-model="bookData.price"
+              required
+              min="1"
+            />
+            <div class="invalid-feedback">Please enter a valid book price.</div>
+          </div>
+
+          <!-- Print Color Radio -->
+          <div class="form-group my-4 col-md-6">
+            <p>Print Color</p>
+            <div class="has-validation" v-for="pcolor in book.printColor">
+              <input
+                type="radio"
+                class="form-radio-input"
+                :id="pcolor"
+                name="pcolor"
+                required
+                v-model="bookData.printColor"
+                :value="pcolor"
+              />
+              &nbsp; &nbsp;
+              <label :for="pcolor" class="my-2">{{ pcolor }}</label>
+            </div>
+            <div class="invalid-feedback" v-if="!bookData.printColor">
+              Please choose the book print color.
+            </div>
+          </div>
+
+          <!-- Submit button -->
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Add Book</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="book-data" style="display: none">
+        <h4 class="my-4">Book Data</h4>
+        <div class="row my-3">
+          <label for="">Book Name: {{bookData.bookName}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">Author Name: {{bookData.authorName}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">Category: {{bookData.category}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">Pages: {{bookData.pages}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">ISBN: {{bookData.ISBN}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">Price: {{bookData.price}}</label>
+        </div>
+
+        <div class="row my-3">
+          <label for="">PrintColor: {{bookData.printColor}}</label>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <button class="btn btn-primary" @click="submit">Submit</button>
+          </div>
+
+          <div class="col-3">
+            <button class="btn btn-primary" @click="goBack">Go back</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const app = Vue.createApp({
+        data: () => ({
+          bookData: {
+            bookName: '',
+            authorName: '',
+            category: '',
+            ISBN: '',
+            price: '',
+            pages: '',
+            printColor: '',
+          },
+          book: {
+            category: [
+              'Frontend',
+              'Backend',
+              'AI',
+              'Embedded Systems',
+              'Networking',
+              'Data Science',
+            ],
+            printColor: ['Black/White', 'Colored'],
+          },
+        }),
+        methods: {
+          addBook() {
+            const form = document.querySelector('.needs-validation');
+            const bookDataElement = document.querySelector('.book-data');
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            } else {
+              form.style.display = 'none';
+              bookDataElement.style.display = 'block';
+              // const bookData = {
+              //   bookName: this.bookName,
+              //   authorName: this.authorName,
+              //   pages: this.pages,
+              //   category: this.category,
+              //   isbn: this.isbn,
+              //   price: this.price,
+              //   printColor: this.printColor,
+              // };
+              // console.log(bookData);
+            }
+            form.classList.add('was-validated');
+          },
+          goBack() {
+            const form = document.querySelector('.needs-validation');
+            const bookDataElement = document.querySelector('.book-data');
+
+            form.style.display = 'flex';
+            bookDataElement.style.display = 'none';
+          },
+          submit() {
+            const form = document.querySelector('.needs-validation');
+            const bookDataElement = document.querySelector('.book-data');
+
+            alert('Book is added successfully');
+
+            this.resetData();
+
+            location.reload();
+            // bookDataElement.style.display = 'none';
+            // form.style.display = 'flex';
+          },
+
+          resetData() {
+            this.bookData.bookName = '';
+            this.bookData.authorName = '';
+            this.bookData.pages = '';
+            this.bookData.category = '';
+            this.bookData.ISBN = '';
+            this.bookData.price = '';
+            this.bookData.printColor = false;
+          },
+        },
+      });
+
+      app.mount('#app');
+    </script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
