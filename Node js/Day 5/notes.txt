@@ -1,0 +1,111 @@
+
+
+
+
+
+
+// request   endPoints (routes)
+
+
+// adding for student
+request -> url= http://localhost:8080/student
+            method="POST"
+//select all student 
+           url= http://localhost:8080/student
+           method="GET"
+
+
+/students   get get all student
+/students   post insert
+/students   patch  update
+/students   delete
+
+
+
+/students        method: get get all students
+/students/add    methdo : post
+/students/update method : post
+/student/delete  method:post
+
+/*****************************************************/
+MVC  Design Pattern
+
+Model Folder :  js files that conatins schema for each Entity  studentSchema.js
+Controller Folder: js files that conatins crud operations for each Entity
+routes Folder :  js files that conatins end points for each Entity
+view Folder:  view engin files
+
+/**********Routing Data sent from front End*******************/
+//1- Query String   (GET,POST, PATCH,DELETE)
+http://localhost:8080/students?id=8
+//2- Query Parameters (GET,POST, PATCH,DELETE)
+http://localhost:8080/students/8/9
+
+//3- body http (POST, PATCH,DELETE)
+
+
+
+/********** input validation *********************************/
+express-validator
+Joe
+
+
+
+
+// 1- native library
+//2- setting connection string="localhost:port&userName=xx&password "
+//3-   db.table("studenents").sqlQuery("select * from students")
+
+//ORM
+class Customer
+{
+    int id;
+    string name;
+}
+
+class Customers:List<Customer>  --> table
+{
+
+}
+
+customers.add(new Customer(1,"xxx")); --> insert inot 
+
+customer.name="yyy"--> update
+
+
+/**************** Mongodb Steps *******************/
+//1- npm monogoose
+//2- open connextion and set connection string (app.js)
+//3-  create Schema for entities Model Folder
+//4- controller to operate crud operations
+
+
+
+
+/***************** Authentication and Authorization *******************/
+Authentication : Who are you ?
+Authorization :   account--> privilage 
+
+
+token: jwt 
+
+
+//1- login route --> gernerate toen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

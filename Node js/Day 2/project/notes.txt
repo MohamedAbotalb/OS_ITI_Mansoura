@@ -1,0 +1,33 @@
+// request   endPoints (routes)
+
+
+// adding for student
+request -> url= http://localhost:8080/student
+            method="POST"
+//select all student 
+           url= http://localhost:8080/student
+           method="GET"
+
+
+/students   get get all student
+/students   post insert
+/students   patch  update
+/students   delete
+
+
+
+/students        method: get get all students
+/students/add    methdo : post
+/students/update method : post
+/student/delete  method:post
+
+
+
+
+
+
+
+
+
+
+
