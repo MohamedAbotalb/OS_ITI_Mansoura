@@ -1,0 +1,23 @@
+{
+  "my_queue": {
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "size": 5,
+    "_name": "my_queue"
+  },
+  "second_queue": {
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "size": 6,
+    "_name": "second_queue"
+  }
+}

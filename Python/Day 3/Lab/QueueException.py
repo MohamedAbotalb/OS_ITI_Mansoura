@@ -1,0 +1,3 @@
+
+class QueueOutOfRangeException(Exception):
+    pass
